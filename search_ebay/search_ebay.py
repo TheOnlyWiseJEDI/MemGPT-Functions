@@ -87,7 +87,7 @@ def search_ebay(self, keywords_to_search: str):
             json_response = response.json()
 
             # Write results to plain text file
-            with open(docs_dir + 'ebay_results.txt', 'w', encoding='utf-8') as text_file:
+            with open(docs_dir + "\\" + 'ebay_results.txt', 'w', encoding='utf-8') as text_file:
                 for item in json_response.get('findItemsAdvancedResponse', [])[0].get('searchResult', [])[0].get('item', []):
                     text_file.write(convert_to_plain_text(item))
 
@@ -110,7 +110,7 @@ def search_ebay(self, keywords_to_search: str):
 
     results = ebay_api_search(keywords)
     
-    file_path = (docs_dir + 'ebay_results.txt')
+    file_path = (docs_dir + "\\" + 'ebay_results.txt')
 
     with open(file_path, 'r', encoding='utf-8') as file:
         file_content = file.read()
