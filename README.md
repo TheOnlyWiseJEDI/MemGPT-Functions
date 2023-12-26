@@ -11,5 +11,6 @@ With 'send_to_chrome' installed, you can ask the AI to open any of the results i
 For windows it's a tiny super basic and easy to make function.
 
 For each of the functions you may need an API KEY.
-All API related are are based on free API's except the rocket_launch function.
+
+All that are API related are are based on free API's except the rocket_launch function.
 
