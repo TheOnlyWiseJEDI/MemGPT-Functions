@@ -19,10 +19,6 @@ def send_notification(self, message: str):
     print("Launching notification process..")
     packaged_message = f"{autoremote_url}{message}&sender=MemGPT"
     
-    #printd(f"Sending notification:\n\n{message} to autoremote")
-    
     result = requests.get(packaged_message)
-    
-    #printd(result)
     
     return f"Message sent with result:{result}"
