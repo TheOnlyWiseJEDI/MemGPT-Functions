@@ -71,7 +71,7 @@ def search_api(self, query: str):
                 file.write("\n")  # Add a newline between results                
                 
     docs_dir = os.path.join(os.path.expanduser("~"), "Documents")
-    file_path = (docs_dir + 'search_results.txt')
+    file_path = (docs_dir + "\\" + 'search_results.txt')
     print(file_path)
     write_results_to_text_file(search_results, file_path)
     
