@@ -110,7 +110,7 @@ def search_ebay(self, keywords_to_search: str):
 
     results = ebay_api_search(keywords)
     
-    file_path = (docs_dir + 'ebay_results.txt')
+    file_path = (docs_dir + '/ebay_results.txt')
 
     with open(file_path, 'r', encoding='utf-8') as file:
         file_content = file.read()
