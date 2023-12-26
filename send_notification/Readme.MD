@@ -1,4 +1,5 @@
-This MemGPT function will send a message to a phone running 'Autoremote'. (or actually any number of devices that can run Auto Remote such as a Computer, Raspberry Pi, ect.)
+This MemGPT function will send a message to a phone running 'Autoremote'.
+(or actually any number of devices that can run AutoRemote such as a Computer(chrome extension, EventGhost), or a Raspberry Pi, ect.)
 
 I think this is an Android only app but not certain.
 
