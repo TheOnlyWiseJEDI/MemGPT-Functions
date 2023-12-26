@@ -4,5 +4,5 @@ It requires a free API key. Once you have a key edit the file and add it and adj
 
 You can also adjust the 'category'
   
-If you have send_to_chrome installed you can ask the AI to open a specific article in the default browser.
+If you have send_to_chrome installed you can ask the AI to open a specific article from the results in the default browser.
 
