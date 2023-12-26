@@ -1,6 +1,6 @@
 If you happen to live near a Launch Pad or just like to keep up with Rockets then this is the function for you.
 
-This function uses the API from rocklaunch.live to retrieve upcoming launch schedule for the specified area.
+This function uses the API from rocklaunch.live to retrieve upcoming launch schedules for the specified area.
 
 It requires an API Key that is not free but is cheap and if you live near SpaceX like I do and want to actually see the rocket
 that is causing a simulated earthquake BEFORE it hits orbit it might be worth it.
