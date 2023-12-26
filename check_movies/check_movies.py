@@ -68,7 +68,7 @@ def check_movies(self, movie_name: str):
                 file.write(f"Link: {imdb_url}\n")
                 file.write("\n")  # Add a newline between results
 
-        file_path = (docs_dir + '\movie_output.txt')
+        file_path = (docs_dir + '/movie_output.txt')
         
         with open(file_path, 'w', encoding='utf-8') as file:
             write_movie_results_to_text_file(limited_results, file)
