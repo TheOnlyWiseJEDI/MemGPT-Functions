@@ -65,7 +65,7 @@ def news_api(self, query: str):
         news_api_results = response.json()
         #print(news_api_results)
         
-        file_path = (docs_dir + '/news_output.txt')
+        file_path = (docs_dir + 'news_output.txt')
         write_results_to_text_file(news_api_results, file_path)
         
         with open(file_path, 'r', encoding='utf-8') as file:
