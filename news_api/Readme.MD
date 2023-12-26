@@ -1,6 +1,6 @@
 Made for Windows. This MemGPT function searches NewsAPI from newsapi.org.
   
-It requires a free API key. Once you have a key edit the file and add it and adjust the number of retries if desired.
+It requires a free API key. Once you have a key edit the file and add it and adjust the number of results if desired.
 
 You can also adjust the 'category'
   
