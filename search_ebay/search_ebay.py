@@ -4,6 +4,7 @@ import os
 
 docs_dir = os.path.join(os.path.expanduser("~"), "Documents") # Defaults to the Documents directory of the current user
 app_id = 'YOUR-PRODUCTION-API-KEY'   # Replace 'YourProductionAppID' with your actual eBay developer application ID
+num_results = 3
 
 def search_ebay(self, keywords_to_search: str):
     
@@ -65,8 +66,8 @@ def search_ebay(self, keywords_to_search: str):
     def ebay_api_search(keywords):
         global app_id
         global docs_dir
-        num_results=3
-    
+        global num_results
+        
         print(f"Searching eBay for: {keywords}")
       
         # URL for the eBay Finding API
