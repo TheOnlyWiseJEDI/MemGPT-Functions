@@ -15,5 +15,9 @@ For each of the functions you may need an API KEY.
 
 All that are API related are are based on free API's except the rocket_launch function.
 
-Change update:
-Corrected path issue for generated files 12_26_2023
+Change updates:
+12_26_2023 Corrected path issue for generated files made by 'search_pi', 'search_ebay', 'check_movies' & 'launch_schedule'.
+  (Files are saved in the Documents directory of the current Windows user.)
+
+12/27/2023 Updated search_ebay; The URL's provided by the eBay API are not functional, they lead to 'item not found' on eBay's site so I replaced it with a URL link that leads to the 'search results' page on eBay for the original 'keyword(s)'.
+
