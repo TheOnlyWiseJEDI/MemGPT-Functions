@@ -15,7 +15,7 @@ For windows it's a tiny super basic and easy to make function.
 
 For each of the functions you may need an API KEY.
 
-All that are API related are are based on free API's except the rocket_launch function.
+All that are API related are are based on Free API's except the rocket_launch function.
 
 Change updates:
 12_26_2023 Corrected path issue for generated files made by 'search_pi', 'search_ebay', 'check_movies' & 'launch_schedule'.
