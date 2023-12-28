@@ -11,6 +11,7 @@ def get_weather(self, zipcode: int):
     Returns:
         str: Weather results in plain text with urls
     """
+    print(f"Getting weather for {zipcode}\n")
     
     def get_weather_data():
                 
